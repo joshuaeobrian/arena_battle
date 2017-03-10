@@ -9,7 +9,7 @@ public class Character {
     String characterName;
     String characterType;
 
-    private Character(int attackPower, String characterName, String characterType){
+    public Character(int attackPower, String characterName, String characterType){
         this.healthPoints = 1000;
         this.attackPower = attackPower;
         this.characterName = characterName;
@@ -56,7 +56,8 @@ public class Character {
 
         }else{
             character.setHealthPoints(character.getHealthPoints()-this.attackPower);
-            System.out.printf("%s has taken %s damage \n Enemies health is now %s");
+            System.out.printf("%s has taken %s damage %n Enemies health is now %s%n",character.getCharacterName(),getAttackPower(),character.getHealthPoints());
+
         }
     }
     // deduct health of arg character
@@ -72,7 +73,5 @@ public class Character {
             else {
             return false;
         }
-
-
     }
 }
