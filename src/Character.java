@@ -7,6 +7,7 @@ import java.util.Random;
  */
 
 public class Character {
+
     private int healthPoints;
     private int attackPower;
     private String characterName;
@@ -14,6 +15,8 @@ public class Character {
     private String Weapon;
     private int weaponPower;
     private Random rand = new Random();
+
+
 
 
     public Character(int attackPower, String characterName, String characterType) {
