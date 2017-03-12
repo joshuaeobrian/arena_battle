@@ -3,16 +3,16 @@
  */
 public class PrintFormat {
 
-	public static void print(String str){
-		for(int i =0; i <=str.length();i++){
+	public static void print(String str) {
+		for (int i = 0; i < str.length(); i++) {
 			System.out.print(str.charAt(i));
-			try{
+			try {
 				Thread.sleep(100);
-			}catch (Exception e){
-
+			} catch (Exception e) {
+				e.printStackTrace();
 			}
+
 		}
 		System.out.println();
-
 	}
 }
