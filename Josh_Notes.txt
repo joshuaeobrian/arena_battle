@@ -1,0 +1,16 @@
+
+Overall with this assignment I feel that all of us in the group
+have contributed equally. Though there is still a lot to be learned,
+each and everyone of us are fully capable of morphing ourselves
+into the programmers that we all strive to be.
+
+Gavin put together the Character class which contains almost all
+of the functionality of the application. While Chris added the
+arena class, and the functionality which controls 2 characters
+that fight each other. We then merged their two sections together
+through github. From there Chris tied the two classes together,
+so we could check the functionality of our code. I contributed
+to all classes making the application more interactive, along with random
+creation of player 2. I also adding some arrays and hash maps
+that allowed us to have some extra features. After making my
+additions I then tested to make sure all functionality was still good.
